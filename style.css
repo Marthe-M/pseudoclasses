@@ -1,0 +1,59 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+a.about:hover{
+    color: lightblue;
+    font-weight: bold;
+}
+
+a.contact:active{
+    color: rgb(182, 0, 0);
+    font-style: italic;
+}
+
+a.search:visited{
+    color: rgb(226, 230, 0);
+}
+    
+    input:focus {
+    color: green;
+    font-size: 20px;
+    border: 5px dashed blue;
+}
+
+form {
+    width: 50px;
+    display: inline;
+    margin: 0;
+}
+
+.links {
+    margin-bottom: 200px;
+}
+
+
+
+nav ul li {
+    list-style-type: none;
+    padding: 20px 30px;
+    background-color: darkblue;
+    display: inline-flex;
+    width: 200px;
+          
+    
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li.currentpage {
+    background-color: grey;
+}
+
+nav ul li:hover{
+    background-color: lightblue;
+}
+
